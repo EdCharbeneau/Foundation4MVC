@@ -1,0 +1,50 @@
+﻿@model Foundation4MVC.Models.BasicFormModel
+
+@{
+    ViewBag.Title = "Form";
+}
+
+<div class="row">
+    <div class="twelve columns">
+        <h2>Form</h2>
+
+        @using (Html.BeginForm("Form", "Foundation", FormMethod.Post, new { @class="custom" }))
+        {
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <legend>BasicFormModel</legend>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.SampleField)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.SampleField)
+                    @Html.ValidationMessageFor(model => model.SampleField)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.Selected)
+                </div>
+                <div class="editor-field">
+                    @Html.DropDownListFor(m => m.Selected, Model.DropDownItems, "choose....", null)
+                    @Html.ValidationMessageFor(model => model.Selected)
+                </div>
+                
+
+                <p>
+                    <input type="submit" value="Create" />
+                </p>
+            </fieldset>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script> $("#customDropdown").foundationCustomForms();</script>
+}
