@@ -26,9 +26,11 @@
         ('__proto__' in {} ? '@Url.Content("~/scripts/zepto.js")' : '@Url.Content("~/scripts/jquery.js")') +
       '><\/script>')
     </script>
-   
-    @Scripts.Render("~/bundles/foundation")
 
+    @Scripts.Render("~/bundles/foundation")
+    <script>
+        $(document).foundation();
+    </script>
     @*Use the Scripts section to define page specific scripts*@
     @RenderSection("scripts", required: false)
 </body>
