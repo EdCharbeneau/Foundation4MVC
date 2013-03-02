@@ -67,7 +67,7 @@ Foundation Zurb http://twitter.com/#!/foundationzurb
 
 Change Log:
 
-Version 1.0.402
+Version 1.0.403
 Initial NuGet Release
 
 Note: version scheme <major>.<minor>.<foundation version>
