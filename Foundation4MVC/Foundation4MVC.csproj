@@ -232,8 +232,11 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="Foundation_readme.txt" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="humans.txt" />
+    <Content Include="robots.txt" />
     <Content Include="Scripts\foundation\foundation.alerts.js" />
     <Content Include="Scripts\foundation\foundation.clearing.js" />
     <Content Include="Scripts\foundation\foundation.cookie.js" />
