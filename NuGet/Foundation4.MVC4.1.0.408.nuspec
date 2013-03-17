@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Foundation4.MVC4</id>
-        <version>1.0.403</version>
-        <title>Zurb Foundation 4.0.3 for MVC4</title>
+        <version>1.0.408</version>
+        <title>Zurb Foundation 4.0.8 for MVC4</title>
         <authors>Ed Charbeneau</authors>
         <owners>Ed Charbeneau</owners>
         <licenseUrl>https://github.com/zurb/foundation/blob/master/LICENSE</licenseUrl>
@@ -19,18 +19,17 @@ Download: http://foundation.zurb.com/download.php
 Foundation is MIT-licensed and absolutely free to use. Foundation wouldn't be possible without the support of the entire ZURB team, our friends and colleagues who gave feedback, and some luminaries who did some heavy lifting that we took advantage of (thanks guys).</description>
         <summary>Zurb Foundation HTML Boilerplate, CSS, JS, Plugins
 An easy to use, powerful, and flexible framework for building prototypes and production code on any kind of device.</summary>
-        <releaseNotes>Initial Release
--Foundation version 4.0.3</releaseNotes>
+        <releaseNotes>Updated core to 4.0.8</releaseNotes>
         <copyright>MIT open source licensed</copyright>
         <tags>HTML CSS MVC Template Boilerplate Javascript Prototyping Framework Foundation Zurb</tags>
         <dependencies>
-            <dependency id="Foundation4.Core" version="4.0.3" />
+            <dependency id="Foundation4.Core" version="4.0.8" />
         </dependencies>
     </metadata>
     <files>
-        <file src="..\Foundation4MVC\Content\foundation\foundation.mvc.css" target="content\Content\foundation\foundation.mvc.css" />
-        <file src="..\Foundation4MVC\Views\Foundation\Index.cshtml" target="content\Views\Home\Foundation_Index.cshtml" />
-        <file src="..\Foundation4MVC\Views\Shared\_Foundation.cshtml" target="content\Views\Shared\_Foundation.cshtml" />
-        <file src="..\Foundation4MVC\Foundation_readme.txt" target="content\Foundation_readme.txt" />
+        <file src="content\Content\foundation\foundation.mvc.css" target="content\Content\foundation\foundation.mvc.css" />
+        <file src="content\Views\Home\Foundation_Index.cshtml" target="content\Views\Home\Foundation_Index.cshtml" />
+        <file src="content\Views\Shared\_Foundation.cshtml" target="content\Views\Shared\_Foundation.cshtml" />
+        <file src="content\Foundation_readme.txt" target="content\Foundation_readme.txt" />
     </files>
 </package>

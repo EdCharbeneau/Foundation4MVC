@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Foundation4.Core</id>
-        <version>4.0.3</version>
+        <version>4.0.8</version>
         <title>Foundation 4 Core files</title>
         <authors>Ed Charbeneau</authors>
         <owners>Ed Charbeneau</owners>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Core CSS and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4</description>
         <summary>Core CSS and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4</summary>
-        <releaseNotes>Initial Release 4.0.3</releaseNotes>
+        <releaseNotes>Updated to 4.0.8</releaseNotes>
     </metadata>
     <files>
         <file src="..\Foundation4MVC\Content\foundation\app.css" target="content\Content\foundation\app.css" />
