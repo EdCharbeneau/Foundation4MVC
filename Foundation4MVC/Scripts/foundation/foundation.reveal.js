@@ -6,7 +6,7 @@
   Foundation.libs.reveal = {
     name: 'reveal',
 
-    version : '4.0.3',
+    version : '4.0.6',
 
     locked : false,
 
@@ -44,7 +44,7 @@
       }
 
       if (typeof method != 'string') {
-        if (!this.settings.init) this.events();
+        this.events();
 
         return this.settings.init;
       } else {
@@ -56,6 +56,7 @@
       var self = this;
 
       $(this.scope)
+        .off('.fndtn.reveal')
         .on('click.fndtn.reveal', '[data-reveal-id]', function (e) {
           e.preventDefault();
           if (!self.locked) {
@@ -64,6 +65,7 @@
           }
         })
         .on('click.fndtn.reveal touchend.click.fndtn.reveal', this.close_targets(), function (e) {
+          e.preventDefault();
           if (!self.locked) {
             self.locked = true;
             self.close.call(self, $(this).closest('.reveal-modal'));
@@ -75,13 +77,20 @@
         .on('close.fndtn.reveal', '.reveal-modal', this.settings.close)
         .on('closed.fndtn.reveal', '.reveal-modal', this.settings.closed)
         .on('closed.fndtn.reveal', '.reveal-modal', this.close_video);
+
+      return true;
     },
 
     open : function (target) {
-      var modal = $('#' + target.data('reveal-id')),
-          open_modal = $('.reveal-modal.open');
+      if (target) {
+        var modal = $('#' + target.data('reveal-id'));
+      } else {
+        var modal = $(this.scope);
+      }
 
-      if (!modal.data('css-top')) {
+      var open_modal = $('.reveal-modal.open');
+
+      if (typeof modal.data('css-top') === 'undefined') {
         modal.data('css-top', parseInt(modal.css('top'), 10))
           .data('offset', this.cache_offset(modal));
       }
@@ -96,6 +105,7 @@
     },
 
     close : function (modal) {
+      var modal = modal || $(this.scope);
       this.locked = true;
       var open_modal = $('.reveal-modal.open').not(modal);
       modal.trigger('close');
