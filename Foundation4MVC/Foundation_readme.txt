@@ -13,16 +13,16 @@ Change the Layout to _Foundation.cshtml like the example below:
     Layout = "~/Views/Shared/_Foundation.cshtml";
 }
 
-2. Remove the default theme
+2. Replace the default theme
 
 Once the ViewStart has been updated. Replace the default Index.cshtml:
 
 Rename ~/Views/Home/Index.cshtml to Index.cshtml.exclude (or delete the file)
 Rename ~/Views/Home/Foundation_Index.cshtml to Index.cshtml
 
-Replace the default style:
+Sass will replace the default style ~/Content/Site.css This WILL BE OVERWRITTEN each time Sass compiles
 
-Rename ~/Content/Site.css to Site.css.exclude (or delete the file)
+Open and save ~/sass/Site.scss (SASS) to generate ~/Content/Site.css (CSS)
 
 3. Automatic Bundling and Minification
 
@@ -33,11 +33,6 @@ Add the following bundles:
             //If your project requires jQuery, you may remove the zepto bundle
             bundles.Add(new ScriptBundle("~/bundles/zepto").Include(
                     "~/Scripts/zepto.js"));
-
-            bundles.Add(new StyleBundle("~/Content/foundation/css").Include(
-                       "~/Content/foundation/foundation.css",
-                       "~/Content/foundation/foundation.mvc.css",
-                       "~/Content/foundation/app.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/foundation").Include(
                       "~/Scripts/foundation/foundation.js",
@@ -66,9 +61,7 @@ Ed Charbeneau http://twitter.com/#!/edcharbeneau
 Foundation Zurb http://twitter.com/#!/foundationzurb
 
 Change Log:
-Version 1.0.408
-- Updated to 4.0.8
-Version 1.0.403
+Version 1.0.409
 - Initial NuGet Release
 
 Note: version scheme <major>.<minor>.<foundation version>

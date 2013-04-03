@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <IsCompassProject>True</IsCompassProject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -234,6 +235,46 @@
     <Content Include="favicon.ico" />
     <Content Include="Foundation_readme.txt" />
     <Content Include="Global.asax" />
+    <Content Include="config.rb" />
+    <Content Include="sass\_foundation.scss" />
+    <Content Include="sass\foundation\components\_alert-boxes.scss" />
+    <Content Include="sass\foundation\components\_block-grid.scss" />
+    <Content Include="sass\foundation\components\_breadcrumbs.scss" />
+    <Content Include="sass\foundation\components\_button-groups.scss" />
+    <Content Include="sass\foundation\components\_buttons.scss" />
+    <Content Include="sass\foundation\components\_clearing.scss" />
+    <Content Include="sass\foundation\components\_custom-forms.scss" />
+    <Content Include="sass\foundation\components\_dropdown-buttons.scss" />
+    <Content Include="sass\foundation\components\_dropdown.scss" />
+    <Content Include="sass\foundation\components\_flex-video.scss" />
+    <Content Include="sass\foundation\components\_forms.scss" />
+    <Content Include="sass\foundation\components\_global.scss" />
+    <Content Include="sass\foundation\components\_grid.scss" />
+    <Content Include="sass\foundation\components\_inline-lists.scss" />
+    <Content Include="sass\foundation\components\_joyride.scss" />
+    <Content Include="sass\foundation\components\_keystrokes.scss" />
+    <Content Include="sass\foundation\components\_labels.scss" />
+    <Content Include="sass\foundation\components\_magellan.scss" />
+    <Content Include="sass\foundation\components\_orbit.scss" />
+    <Content Include="sass\foundation\components\_pagination.scss" />
+    <Content Include="sass\foundation\components\_panels.scss" />
+    <Content Include="sass\foundation\components\_pricing-tables.scss" />
+    <Content Include="sass\foundation\components\_progress-bars.scss" />
+    <Content Include="sass\foundation\components\_reveal.scss" />
+    <Content Include="sass\foundation\components\_section.scss" />
+    <Content Include="sass\foundation\components\_side-nav.scss" />
+    <Content Include="sass\foundation\components\_split-buttons.scss" />
+    <Content Include="sass\foundation\components\_sub-nav.scss" />
+    <Content Include="sass\foundation\components\_switch.scss" />
+    <Content Include="sass\foundation\components\_tables.scss" />
+    <Content Include="sass\foundation\components\_thumbs.scss" />
+    <Content Include="sass\foundation\components\_tooltips.scss" />
+    <Content Include="sass\foundation\components\_top-bar.scss" />
+    <Content Include="sass\foundation\components\_type.scss" />
+    <Content Include="sass\foundation\components\_visibility.scss" />
+    <Content Include="sass\foundation\_foundation-global.scss" />
+    <Content Include="sass\_normalize.scss" />
+    <Content Include="sass\Site.scss" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="humans.txt" />
     <Content Include="robots.txt" />
@@ -307,8 +348,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Foundation\Index.cshtml" />
-    <Content Include="Views\Shared\_Foundation.cshtml" />
     <Content Include="Views\Foundation\Form.cshtml" />
+    <Content Include="Views\Shared\_Foundation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

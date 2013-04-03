@@ -54,6 +54,17 @@ namespace Foundation4MVC
                       "~/Scripts/foundation/foundation.*",
                       "~/Scripts/foundation/app.js"));
             #endregion
+
+            #region Foundation SASS Bundles
+            //If your project requires jQuery, you may remove the zepto bundle
+            bundles.Add(new ScriptBundle("~/bundles/zepto").Include(
+                    "~/Scripts/zepto.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/foundation").Include(
+                      "~/Scripts/foundation/foundation.js",
+                      "~/Scripts/foundation/foundation.*",
+                      "~/Scripts/foundation/app.js"));
+            #endregion
         }
     }
 }
