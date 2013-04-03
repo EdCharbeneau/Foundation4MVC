@@ -1,6 +1,22 @@
 ﻿﻿/****** Installation Instructions ******
 
-1. Update the Layout
+Requirements:
+
+This package requires your project requires Compass and Sass.
+For Compass and Sass support in Visual Studio see: http://www.mindscapehq.com/products/web-workbench
+
+1. Create and configure a compass project
+
+Create a Compass project
+(Instructions using Web Workbench) http://www.mindscapehq.com/blog/index.php/2012/10/04/working-with-compass-web-workbench-to-create-button-sprites-within-visual-studio/
+
+Open the /config.rb and change the output directory from "stylesheets" to "Content"
+#Match MVC conventions
+css_dir = "Content"
+
+If desired remove Compass default files ie.scss, screen.scss, print.scss
+
+2. Update the Layout
 
 Open the /Views/_ViewStart.cshtml
 Change the Layout to _Foundation.cshtml like the example below:
@@ -13,7 +29,7 @@ Change the Layout to _Foundation.cshtml like the example below:
     Layout = "~/Views/Shared/_Foundation.cshtml";
 }
 
-2. Replace the default theme
+3. Replace the default theme
 
 Once the ViewStart has been updated. Replace the default Index.cshtml:
 
@@ -24,7 +40,7 @@ Sass will replace the default style ~/Content/Site.css This WILL BE OVERWRITTEN 
 
 Open and save ~/sass/Site.scss (SASS) to generate ~/Content/Site.css (CSS)
 
-3. Automatic Bundling and Minification
+4. Automatic Bundling and Minification
 
 Open the /App_Start/BundleConfig.cs
 Add the following bundles:
@@ -40,7 +56,7 @@ Add the following bundles:
                       "~/Scripts/foundation/app.js"));
             #endregion
 
-4. You are now ready to begin building your MVC project using Foundation.
+5. You are now ready to begin building your MVC project using Foundation.
 
 /****** Related Nuget packages ******
 Want to rapid prototype and wire frame directly from code using Html Helpers? 

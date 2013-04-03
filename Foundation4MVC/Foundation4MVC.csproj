@@ -275,6 +275,7 @@
     <Content Include="sass\foundation\_foundation-global.scss" />
     <Content Include="sass\_normalize.scss" />
     <Content Include="sass\Site.scss" />
+    <Content Include="sass\_foundation.mvc.scss" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="humans.txt" />
     <Content Include="robots.txt" />
