@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Foundation4.MVC4.Sass</id>
-        <version>1.0.409</version>
+        <version>1.2.409</version>
         <title>Zurb Foundation 4.0.9 for MVC4 and Sass</title>
         <authors>Ed Charbeneau</authors>
         <owners>Ed Charbeneau</owners>

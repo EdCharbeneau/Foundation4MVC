@@ -9,6 +9,7 @@ For Compass and Sass support in Visual Studio see: http://www.mindscapehq.com/pr
 
 Create a Compass project
 (Instructions using Web Workbench) http://www.mindscapehq.com/blog/index.php/2012/10/04/working-with-compass-web-workbench-to-create-button-sprites-within-visual-studio/
+**If you are using Web Workbench, you must create a Compass project, otherwise Web Workbench will not save the compiled CSS to the correct location.
 
 Open the /config.rb and change the output directory from "stylesheets" to "Content"
 #Match MVC conventions
@@ -75,6 +76,9 @@ Resources: http://www.responsiveMVC.net/
 Follow us:
 Ed Charbeneau http://twitter.com/#!/edcharbeneau
 Foundation Zurb http://twitter.com/#!/foundationzurb
+
+Thanks to Frans Lytzen for his contributions to the project.
+http://blog.lytzen.name/
 
 Change Log:
 Version 1.0.409
