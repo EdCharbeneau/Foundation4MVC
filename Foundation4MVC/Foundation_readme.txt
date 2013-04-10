@@ -67,9 +67,11 @@ Foundation Zurb http://twitter.com/#!/foundationzurb
 
 Change Log:
 Version 1.0.408
-- Updated to 4.0.8
+	- Updated core to 4.1.2
+Version 1.0.408
+	- Updated core to 4.1.2
 Version 1.0.403
-- Initial NuGet Release
+	- Initial NuGet Release
 
 Note: version scheme <major>.<minor>.<foundation version>
 foundation version represents the foundation version less the "." for example 4.1.4 would be #.#.414
