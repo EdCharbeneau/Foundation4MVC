@@ -6,7 +6,7 @@
   Foundation.libs.reveal = {
     name: 'reveal',
 
-    version : '4.0.6',
+    version : '4.1.2',
 
     locked : false,
 
@@ -41,6 +41,8 @@
 
       if (typeof method === 'object') {
         $.extend(true, this.settings, method);
+      } else if (typeof options !== 'undefined') {
+        $.extend(true, this.settings, options);
       }
 
       if (typeof method != 'string') {
@@ -88,29 +90,35 @@
         var modal = $(this.scope);
       }
 
-      var open_modal = $('.reveal-modal.open');
+      if (!modal.hasClass('open')) {
+        var open_modal = $('.reveal-modal.open');
 
-      if (typeof modal.data('css-top') === 'undefined') {
-        modal.data('css-top', parseInt(modal.css('top'), 10))
-          .data('offset', this.cache_offset(modal));
+        if (typeof modal.data('css-top') === 'undefined') {
+          modal.data('css-top', parseInt(modal.css('top'), 10))
+            .data('offset', this.cache_offset(modal));
+        }
+
+        modal.trigger('open');
+
+        if (open_modal.length < 1) {
+          this.toggle_bg(modal);
+        }
+        this.hide(open_modal, this.settings.css.open);
+        this.show(modal, this.settings.css.open);
       }
-
-      modal.trigger('open');
-
-      if (open_modal.length < 1) {
-        this.toggle_bg(modal);
-      }
-
-      this.toggle_modals(open_modal, modal);
     },
 
     close : function (modal) {
-      var modal = modal || $(this.scope);
-      this.locked = true;
-      var open_modal = $('.reveal-modal.open').not(modal);
-      modal.trigger('close');
-      this.toggle_bg(modal);
-      this.toggle_modals(open_modal, modal);
+
+      var modal = modal || $(this.scope),
+          open_modals = $('.reveal-modal.open');
+
+      if (open_modals.length > 0) {
+        this.locked = true;
+        modal.trigger('close');
+        this.toggle_bg(modal);
+        this.hide(open_modals, this.settings.css.close);
+      }
     },
 
     close_targets : function () {
@@ -123,22 +131,10 @@
       return base;
     },
 
-    toggle_modals : function (open_modal, modal) {
-      if (open_modal.length > 0) {
-        this.hide(open_modal, this.settings.css.close);
-      }
-
-      if (modal.filter(':visible').length > 0) {
-        this.hide(modal, this.settings.css.close);
-      } else {
-        this.show(modal, this.settings.css.open);
-      }
-    },
-
     toggle_bg : function (modal) {
-      if (this.settings.bg.length === 0) {
+      if ($('.reveal-modal-bg').length === 0) {
         this.settings.bg = $('<div />', {'class': this.settings.bgClass})
-          .insertAfter(modal);
+          .appendTo('body');
       }
 
       if (this.settings.bg.filter(':visible').length > 0) {
