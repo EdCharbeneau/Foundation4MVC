@@ -3972,7 +3972,7 @@ form.custom .custom.disabled {
   background: #970b0e;
 }
 /* line 252, ../sass/foundation/components/_top-bar.scss */
-.top-bar-section ul li.active a {
+.top-bar-section ul li.active > a {
   background: #2b2b2b;
 }
 /* line 256, ../sass/foundation/components/_top-bar.scss */
@@ -4649,14 +4649,35 @@ form.custom .custom.disabled {
   cursor: pointer;
 }
 
+/* line 160, ../sass/foundation/components/_joyride.scss */
+.joyride-expose-wrapper {
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 3px;
+  z-index: 102;
+  -moz-box-shadow: 0px 0px 30px #ffffff;
+  -webkit-box-shadow: 0px 0px 15px #ffffff;
+  box-shadow: 0px 0px 15px #ffffff;
+}
+
+/* line 170, ../sass/foundation/components/_joyride.scss */
+.joyride-expose-cover {
+  background: transparent;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 9999;
+  top: 0px;
+  left: 0px;
+}
+
 /* Styles for screens that are atleast 768px; */
 @media only screen and (min-width: 48em) {
-  /* line 163, ../sass/foundation/components/_joyride.scss */
+  /* line 182, ../sass/foundation/components/_joyride.scss */
   .joyride-tip-guide {
     width: 300px;
     left: inherit;
   }
-  /* line 165, ../sass/foundation/components/_joyride.scss */
+  /* line 184, ../sass/foundation/components/_joyride.scss */
   .joyride-tip-guide .joyride-nub.bottom {
     border-color: black !important;
     border-bottom-color: transparent !important;
@@ -4665,7 +4686,7 @@ form.custom .custom.disabled {
     bottom: -28px;
     bottom: none;
   }
-  /* line 173, ../sass/foundation/components/_joyride.scss */
+  /* line 192, ../sass/foundation/components/_joyride.scss */
   .joyride-tip-guide .joyride-nub.right {
     border-color: black !important;
     border-top-color: transparent !important;
@@ -4676,7 +4697,7 @@ form.custom .custom.disabled {
     left: auto;
     right: -28px;
   }
-  /* line 182, ../sass/foundation/components/_joyride.scss */
+  /* line 201, ../sass/foundation/components/_joyride.scss */
   .joyride-tip-guide .joyride-nub.left {
     border-color: black !important;
     border-top-color: transparent !important;
