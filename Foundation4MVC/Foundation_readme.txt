@@ -2,7 +2,7 @@
 
 Requirements:
 
-This package requires your project requires Compass and Sass.
+This package requires Sass (Compass is optional).
 For Compass and Sass support in Visual Studio see: http://www.mindscapehq.com/products/web-workbench
 
 1. Configure your project
