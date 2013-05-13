@@ -87,6 +87,9 @@ Thanks to Frans Lytzen for his contributions to the project.
 http://blog.lytzen.name/
 
 Change Log:
+Version 1.2.416
+	-Updated core to 4.1.6
+
 Version 1.2.412
 	-Updated core to 4.1.2
 

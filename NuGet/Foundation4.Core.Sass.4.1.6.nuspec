@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Foundation4.Core.Sass</id>
-        <version>4.1.2</version>
+        <version>4.1.6</version>
         <title>Foundation 4 Core Sass files</title>
         <authors>Ed Charbeneau</authors>
         <owners>Ed Charbeneau</owners>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Core SCSS (Sass) and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4.Sass</description>
         <summary>Core SCSS (Sass) and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4.Sass</summary>
-        <releaseNotes>Initial Release 4.1.2</releaseNotes>
+        <releaseNotes>Updated to 4.1.6</releaseNotes>
     </metadata>
     <files>
         <file src="..\Foundation4MVC\sass\foundation\components\_alert-boxes.scss" target="content\sass\foundation\components\_alert-boxes.scss" />
@@ -50,7 +50,7 @@
         <file src="..\Foundation4MVC\sass\foundation\components\_top-bar.scss" target="content\sass\foundation\components\_top-bar.scss" />
         <file src="..\Foundation4MVC\sass\foundation\components\_type.scss" target="content\sass\foundation\components\_type.scss" />
         <file src="..\Foundation4MVC\sass\foundation\components\_visibility.scss" target="content\sass\foundation\components\_visibility.scss" />
-        <file src="..\Foundation4MVC\sass\foundation\_foundation-global.scss" target="content\sass\foundation\_foundation-global.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\_variables.scss" target="content\sass\foundation\_variables.scss" />
         <file src="..\Foundation4MVC\sass\Site.scss" target="content\sass\Site.scss" />
         <file src="..\Foundation4MVC\sass\_foundation.mvc.scss" target="content\sass\_foundation.mvc.scss" />
         <file src="..\Foundation4MVC\sass\_foundation.scss" target="content\sass\_foundation.scss" />
