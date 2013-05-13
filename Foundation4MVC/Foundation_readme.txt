@@ -66,10 +66,9 @@ Ed Charbeneau http://twitter.com/#!/edcharbeneau
 Foundation Zurb http://twitter.com/#!/foundationzurb
 
 Change Log:
-Version 1.0.408
-	- Updated core to 4.1.2
-Version 1.0.408
-	- Updated core to 4.1.2
+Version 1.0.416
+	- Updated core to 4.1.6
+
 Version 1.0.403
 	- Initial NuGet Release
 
