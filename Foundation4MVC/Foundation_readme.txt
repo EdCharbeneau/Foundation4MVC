@@ -87,6 +87,10 @@ Thanks to Frans Lytzen for his contributions to the project.
 http://blog.lytzen.name/
 
 Change Log:
+Version 1.2.421
+	-Updated core to 4.2.1
+	-now with interchange http://foundation.zurb.com/docs/components/interchange.html
+
 Version 1.2.416
 	-Updated core to 4.1.6
 
