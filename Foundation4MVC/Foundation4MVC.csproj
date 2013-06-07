@@ -242,6 +242,7 @@
     <Content Include="Scripts\foundation\foundation.cookie.js" />
     <Content Include="Scripts\foundation\foundation.dropdown.js" />
     <Content Include="Scripts\foundation\foundation.forms.js" />
+    <Content Include="Scripts\foundation\foundation.interchange.js" />
     <Content Include="Scripts\foundation\foundation.joyride.js" />
     <Content Include="Scripts\foundation\foundation.js" />
     <Content Include="Scripts\foundation\foundation.magellan.js" />
