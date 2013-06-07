@@ -6,7 +6,7 @@
   Foundation.libs.tooltips = {
     name: 'tooltips',
 
-    version : '4.1.7',
+    version : '4.2.0',
 
     settings : {
       selector : '.has-tip',
@@ -56,7 +56,7 @@
               '[data-tooltip]', function (e) {
               var $this = $(this);
 
-              if (e.type === 'mouseover' || e.type === 'mouseenter') {
+              if (/enter|over/i.test(e.type)) {
                 self.showOrCreateTip($this);
               } else if (e.type === 'mouseout' || e.type === 'mouseleave') {
                 self.hide($this);
@@ -86,7 +86,7 @@
           tip = null;
 
       if (selector) {
-        tip = $('span[data-selector=' + selector + ']' + this.settings.tooltipClass);
+        tip = $('span[data-selector="' + selector + '"]' + this.settings.tooltipClass);
       }
 
       return (typeof tip === 'object') ? tip : false;
@@ -201,6 +201,8 @@
       $(this.settings.tooltipClass).each(function (i) {
         $('[data-tooltip]').get(i).attr('title', $(this).text());
       }).remove();
-    }
+    },
+
+    reflow : function () {}
   };
 }(Foundation.zj, this, this.document));
