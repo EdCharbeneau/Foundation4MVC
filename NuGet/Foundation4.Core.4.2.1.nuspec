@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Foundation4.Core</id>
-        <version>4.1.6</version>
+        <version>4.2.1</version>
         <title>Foundation 4 Core files</title>
         <authors>Ed Charbeneau</authors>
         <owners>Ed Charbeneau</owners>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Core CSS and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4</description>
         <summary>Core CSS and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4</summary>
-        <releaseNotes>Updated to 4.1.6</releaseNotes>
+        <releaseNotes>Updated to 4.2.1</releaseNotes>
     </metadata>
     <files>
         <file src="..\Foundation4MVC\Content\foundation\app.css" target="content\Content\foundation\app.css" />
@@ -23,6 +23,7 @@
         <file src="..\Foundation4MVC\Scripts\foundation\foundation.cookie.js" target="content\Scripts\foundation\foundation.cookie.js" />
         <file src="..\Foundation4MVC\Scripts\foundation\foundation.dropdown.js" target="content\Scripts\foundation\foundation.dropdown.js" />
         <file src="..\Foundation4MVC\Scripts\foundation\foundation.forms.js" target="content\Scripts\foundation\foundation.forms.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.interchange.js" target="content\Scripts\foundation\foundation.interchange.js" />
         <file src="..\Foundation4MVC\Scripts\foundation\foundation.joyride.js" target="content\Scripts\foundation\foundation.joyride.js" />
         <file src="..\Foundation4MVC\Scripts\foundation\foundation.js" target="content\Scripts\foundation\foundation.js" />
         <file src="..\Foundation4MVC\Scripts\foundation\foundation.magellan.js" target="content\Scripts\foundation\foundation.magellan.js" />
