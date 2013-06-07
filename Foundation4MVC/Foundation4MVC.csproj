@@ -236,7 +236,6 @@
     <Content Include="Foundation_readme.txt" />
     <Content Include="Global.asax" />
     <Content Include="config.rb" />
-    <Content Include="sass\_foundation.scss" />
     <Content Include="sass\foundation\components\_alert-boxes.scss" />
     <Content Include="sass\foundation\components\_block-grid.scss" />
     <Content Include="sass\foundation\components\_breadcrumbs.scss" />
@@ -272,10 +271,11 @@
     <Content Include="sass\foundation\components\_top-bar.scss" />
     <Content Include="sass\foundation\components\_type.scss" />
     <Content Include="sass\foundation\components\_visibility.scss" />
-    <Content Include="sass\foundation\_foundation-global.scss" />
-    <Content Include="sass\_normalize.scss" />
     <Content Include="sass\Site.scss" />
     <Content Include="sass\_foundation.mvc.scss" />
+    <Content Include="sass\_normalize.scss" />
+    <Content Include="sass\foundation\_variables.scss" />
+    <Content Include="sass\_foundation.scss" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="humans.txt" />
     <Content Include="robots.txt" />
@@ -284,6 +284,7 @@
     <Content Include="Scripts\foundation\foundation.cookie.js" />
     <Content Include="Scripts\foundation\foundation.dropdown.js" />
     <Content Include="Scripts\foundation\foundation.forms.js" />
+    <Content Include="Scripts\foundation\foundation.interchange.js" />
     <Content Include="Scripts\foundation\foundation.joyride.js" />
     <Content Include="Scripts\foundation\foundation.js" />
     <Content Include="Scripts\foundation\foundation.magellan.js" />
