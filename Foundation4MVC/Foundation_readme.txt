@@ -66,6 +66,8 @@ Ed Charbeneau http://twitter.com/#!/edcharbeneau
 Foundation Zurb http://twitter.com/#!/foundationzurb
 
 Change Log:
+Version 1.0.423
+	- Updated core to 4.2.3
 Version 1.0.421
 	- Updated core to 4.2.1
 	- Now with interchange http://foundation.zurb.com/docs/components/interchange.html
