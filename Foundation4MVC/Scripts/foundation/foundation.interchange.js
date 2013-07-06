@@ -6,7 +6,7 @@
   Foundation.libs.interchange = {
     name : 'interchange',
 
-    version : '4.2.1',
+    version : '4.2.4',
 
     cache : {},
 
@@ -20,22 +20,20 @@
         large : 'only screen and (min-width: 1440px)',
         landscape : 'only screen and (orientation: landscape)',
         portrait : 'only screen and (orientation: portrait)',
-        retina : 'only screen and (-webkit-min-device-pixel-ratio: 2),'
-          + 'only screen and (min--moz-device-pixel-ratio: 2),'
-          + 'only screen and (-o-min-device-pixel-ratio: 2/1),'
-          + 'only screen and (min-device-pixel-ratio: 2),'
-          + 'only screen and (min-resolution: 192dpi),'
-          + 'only screen and (min-resolution: 2dppx)'
+        retina : 'only screen and (-webkit-min-device-pixel-ratio: 2),' + 
+          'only screen and (min--moz-device-pixel-ratio: 2),' + 
+          'only screen and (-o-min-device-pixel-ratio: 2/1),' + 
+          'only screen and (min-device-pixel-ratio: 2),' + 
+          'only screen and (min-resolution: 192dpi),' + 
+          'only screen and (min-resolution: 2dppx)'
       },
 
       directives : {
-        replace : function (el, path) {
+        replace: function (el, path) {
           if (/IMG/.test(el[0].nodeName)) {
-            var path_parts = path.split('/'),
-                path_file = path_parts[path_parts.length - 1],
-                orig_path = el[0].src;
+            var orig_path = el[0].src;
 
-            if (new RegExp(path_file, 'i').test(el[0].src)) return;
+            if (new RegExp(path, 'i').test(orig_path)) return;
 
             el[0].src = path;
 
@@ -55,7 +53,7 @@
       this.events();
       this.images();
 
-      if (typeof method != 'string') {
+      if (typeof method !== 'string') {
         return this.settings.init;
       } else {
         return this[method].call(this, options);
