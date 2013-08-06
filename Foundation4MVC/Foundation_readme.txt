@@ -66,6 +66,8 @@ Ed Charbeneau http://twitter.com/#!/edcharbeneau
 Foundation Zurb http://twitter.com/#!/foundationzurb
 
 Change Log:
+Version 1.0.431
+	- Updated core to 4.3.1
 Version 1.0.423
 	- Updated core to 4.2.3
 Version 1.0.421

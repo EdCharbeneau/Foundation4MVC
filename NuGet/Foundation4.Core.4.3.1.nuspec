@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Foundation4.Core</id>
+        <version>4.3.1</version>
+        <title>Foundation 4 Core files</title>
+        <authors>Ed Charbeneau</authors>
+        <owners>Ed Charbeneau</owners>
+        <licenseUrl>https://github.com/zurb/foundation/blob/master/LICENSE</licenseUrl>
+        <projectUrl>http://www.responsiveMVC.net/Foundation</projectUrl>
+        <iconUrl>http://www.codepalousa.com/images/ED/yeti-avatar.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Core CSS and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4</description>
+        <summary>Core CSS and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4</summary>
+        <releaseNotes>Updated to 4.3.1</releaseNotes>
+    </metadata>
+    <files>
+        <file src="..\Foundation4MVC\Content\foundation\app.css" target="content\Content\foundation\app.css" />
+        <file src="..\Foundation4MVC\Content\foundation\foundation.css" target="content\Content\foundation\foundation.css" />
+        <file src="..\Foundation4MVC\Content\foundation\normalize.css" target="content\Content\foundation\normalize.css" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.abide.js" target="content\Scripts\foundation\foundation.abide.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.alerts.js" target="content\Scripts\foundation\foundation.alerts.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.clearing.js" target="content\Scripts\foundation\foundation.clearing.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.cookie.js" target="content\Scripts\foundation\foundation.cookie.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.dropdown.js" target="content\Scripts\foundation\foundation.dropdown.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.forms.js" target="content\Scripts\foundation\foundation.forms.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.interchange.js" target="content\Scripts\foundation\foundation.interchange.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.joyride.js" target="content\Scripts\foundation\foundation.joyride.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.js" target="content\Scripts\foundation\foundation.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.magellan.js" target="content\Scripts\foundation\foundation.magellan.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.orbit.js" target="content\Scripts\foundation\foundation.orbit.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.placeholder.js" target="content\Scripts\foundation\foundation.placeholder.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.reveal.js" target="content\Scripts\foundation\foundation.reveal.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.section.js" target="content\Scripts\foundation\foundation.section.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.tooltips.js" target="content\Scripts\foundation\foundation.tooltips.js" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.topbar.js" target="content\Scripts\foundation\foundation.topbar.js" />
+        <file src="..\Foundation4MVC\Scripts\jquery.js" target="content\Scripts\jquery.js" />
+        <file src="..\Foundation4MVC\Scripts\zepto.js" target="content\Scripts\zepto.js" />
+    </files>
+</package>
