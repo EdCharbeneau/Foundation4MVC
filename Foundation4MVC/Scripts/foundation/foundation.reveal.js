@@ -4,9 +4,9 @@
   'use strict';
 
   Foundation.libs.reveal = {
-    name: 'reveal',
+    name : 'reveal',
 
-    version : '4.2.2',
+    version : '4.3.2',
 
     locked : false,
 
@@ -77,7 +77,7 @@
             }
           }
         })
-        .on('click.fndtn.reveal', this.close_targets(), function (e) {
+        .on('click.fndtn.reveal touchend', this.close_targets(), function (e) {
           e.preventDefault();
           if (!self.locked) {
             var settings = $.extend({}, self.settings, self.data_options($('.reveal-modal.open')));

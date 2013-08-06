@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Foundation4.Core.Sass</id>
+        <version>4.3.1</version>
+        <title>Foundation 4 Core Sass files</title>
+        <authors>Ed Charbeneau</authors>
+        <owners>Ed Charbeneau</owners>
+        <licenseUrl>https://github.com/zurb/foundation/blob/master/LICENSE</licenseUrl>
+        <projectUrl>http://www.responsiveMVC.net/Foundation</projectUrl>
+        <iconUrl>http://www.codepalousa.com/images/ED/yeti-avatar.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Core SCSS (Sass) and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4.Sass</description>
+        <summary>Core SCSS (Sass) and JavaScript files for Foundation framework. For the complete package install Foundation4.MVC4.Sass</summary>
+        <releaseNotes>Updated to 4.3.1</releaseNotes>
+    </metadata>
+    <files>
+        <file src="..\Foundation4MVC\sass\foundation\components\_alert-boxes.scss" target="content\sass\foundation\components\_alert-boxes.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_block-grid.scss" target="content\sass\foundation\components\_block-grid.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_breadcrumbs.scss" target="content\sass\foundation\components\_breadcrumbs.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_button-groups.scss" target="content\sass\foundation\components\_button-groups.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_buttons.scss" target="content\sass\foundation\components\_buttons.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_clearing.scss" target="content\sass\foundation\components\_clearing.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_custom-forms.scss" target="content\sass\foundation\components\_custom-forms.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_dropdown-buttons.scss" target="content\sass\foundation\components\_dropdown-buttons.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_dropdown.scss" target="content\sass\foundation\components\_dropdown.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_flex-video.scss" target="content\sass\foundation\components\_flex-video.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_forms.scss" target="content\sass\foundation\components\_forms.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_global.scss" target="content\sass\foundation\components\_global.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_grid-5.scss" target="content\sass\foundation\components\_grid-5.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_grid.scss" target="content\sass\foundation\components\_grid.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_inline-lists.scss" target="content\sass\foundation\components\_inline-lists.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_joyride.scss" target="content\sass\foundation\components\_joyride.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_keystrokes.scss" target="content\sass\foundation\components\_keystrokes.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_labels.scss" target="content\sass\foundation\components\_labels.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_magellan.scss" target="content\sass\foundation\components\_magellan.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_orbit.scss" target="content\sass\foundation\components\_orbit.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_pagination.scss" target="content\sass\foundation\components\_pagination.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_panels.scss" target="content\sass\foundation\components\_panels.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_pricing-tables.scss" target="content\sass\foundation\components\_pricing-tables.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_progress-bars.scss" target="content\sass\foundation\components\_progress-bars.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_reveal.scss" target="content\sass\foundation\components\_reveal.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_section.scss" target="content\sass\foundation\components\_section.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_side-nav.scss" target="content\sass\foundation\components\_side-nav.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_split-buttons.scss" target="content\sass\foundation\components\_split-buttons.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_sub-nav.scss" target="content\sass\foundation\components\_sub-nav.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_switch.scss" target="content\sass\foundation\components\_switch.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_tables.scss" target="content\sass\foundation\components\_tables.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_thumbs.scss" target="content\sass\foundation\components\_thumbs.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_tooltips.scss" target="content\sass\foundation\components\_tooltips.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_top-bar.scss" target="content\sass\foundation\components\_top-bar.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_type.scss" target="content\sass\foundation\components\_type.scss" />
+        <file src="..\Foundation4MVC\sass\foundation\components\_visibility.scss" target="content\sass\foundation\components\_visibility.scss" />
+        <file src="content\sass\foundation\_variables.scss" target="content\sass\foundation\_variables.scss" />
+        <file src="content\sass\Site.scss" target="content\sass\Site.scss" />
+        <file src="content\sass\_foundation.mvc.scss" target="content\sass\_foundation.mvc.scss" />
+        <file src="content\sass\_foundation.scss" target="content\sass\_foundation.scss" />
+        <file src="content\sass\_normalize.scss" target="content\sass\_normalize.scss" />
+        <file src="..\Foundation4MVC\Scripts\foundation\foundation.abide.js" target="content\Scripts\foundation\foundation.abide.js" />
+        <file src="content\Scripts\foundation\foundation.alerts.js" target="content\Scripts\foundation\foundation.alerts.js" />
+        <file src="content\Scripts\foundation\foundation.clearing.js" target="content\Scripts\foundation\foundation.clearing.js" />
+        <file src="content\Scripts\foundation\foundation.cookie.js" target="content\Scripts\foundation\foundation.cookie.js" />
+        <file src="content\Scripts\foundation\foundation.dropdown.js" target="content\Scripts\foundation\foundation.dropdown.js" />
+        <file src="content\Scripts\foundation\foundation.forms.js" target="content\Scripts\foundation\foundation.forms.js" />
+        <file src="content\Scripts\foundation\foundation.interchange.js" target="content\Scripts\foundation\foundation.interchange.js" />
+        <file src="content\Scripts\foundation\foundation.joyride.js" target="content\Scripts\foundation\foundation.joyride.js" />
+        <file src="content\Scripts\foundation\foundation.js" target="content\Scripts\foundation\foundation.js" />
+        <file src="content\Scripts\foundation\foundation.magellan.js" target="content\Scripts\foundation\foundation.magellan.js" />
+        <file src="content\Scripts\foundation\foundation.orbit.js" target="content\Scripts\foundation\foundation.orbit.js" />
+        <file src="content\Scripts\foundation\foundation.placeholder.js" target="content\Scripts\foundation\foundation.placeholder.js" />
+        <file src="content\Scripts\foundation\foundation.reveal.js" target="content\Scripts\foundation\foundation.reveal.js" />
+        <file src="content\Scripts\foundation\foundation.section.js" target="content\Scripts\foundation\foundation.section.js" />
+        <file src="content\Scripts\foundation\foundation.tooltips.js" target="content\Scripts\foundation\foundation.tooltips.js" />
+        <file src="content\Scripts\foundation\foundation.topbar.js" target="content\Scripts\foundation\foundation.topbar.js" />
+        <file src="content\Scripts\jquery.js" target="content\Scripts\jquery.js" />
+        <file src="content\Scripts\zepto.js" target="content\Scripts\zepto.js" />
+    </files>
+</package>
